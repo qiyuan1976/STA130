@@ -4,10 +4,9 @@ Does participation in group exercise activities have a positive association with
 
 Variables:
 Independent Variable: CONNECTION_activities_group_exercise_p3m (frequency of participation in group exercise in the past three months).
-
 Suggested Visualization: Histogram of exercise frequency to show the distribution of how often participants engage in group exercise. This would help us understand if group exercise is a common or rare activity.
-Dependent Variable: WELLNESS_life_satisfaction (self-reported life satisfaction on a scale from 1 to 10).
 
+Dependent Variable: WELLNESS_life_satisfaction (self-reported life satisfaction on a scale from 1 to 10).
 Suggested Visualization: Boxplot of life satisfaction scores, divided by different levels of exercise frequency (e.g., low, medium, high participation). This would allow us to visually compare life satisfaction across varying levels of exercise.
 
 Bivariate Visualization: Scatter plot of group exercise frequency vs. life satisfaction, with a fitted regression line, to visually assess any potential linear relationship.
@@ -19,6 +18,7 @@ Linearity: We assume a linear relationship between exercise frequency and life s
 Independence: Responses are assumed to be independent since each participant only answers once.
 Homoscedasticity: The variance of residuals should be constant across levels of exercise frequency, assessed via a residual plot.
 Normality of Residuals: Residuals should be approximately normally distributed, assessed using a Q-Q plot.
+
 Hypothesis and Expected Results:
 Null Hypothesis (H0): There is no association between the frequency of group exercise and life satisfaction (the slope 𝛽1=0).
 Alternative Hypothesis (H1): There is a positive association between the frequency of group exercise and life satisfaction (the slope 𝛽1>0).
@@ -32,11 +32,12 @@ Research Question:
 Did the COVID-19 pandemic lead to a significant increase in self-reported loneliness among Canadians?
 
 Variables:
-Paired Data:
 
+Paired Data:
 Before COVID-19 Loneliness: Derived from LONELY_change_pre_covid variable, representing participants' self-reported loneliness before COVID-19.
 After COVID-19 Loneliness: Also derived from LONELY_change_pre_covid, indicating participants' self-reported loneliness after COVID-19.
 Suggested Visualization: Paired boxplots for loneliness before and after COVID-19, allowing us to visually compare the distributions and see if there’s an apparent shift in loneliness levels.
+
 Difference Visualization: Histogram of Differences (after minus before), showing the distribution of changes in loneliness for each individual. This will help identify if most people report higher loneliness after COVID-19.
 
 Analysis:
@@ -44,9 +45,11 @@ Method: Paired t-test to assess if there is a statistically significant differen
 Assumptions:
 Paired Observations: Each individual provides both a before and after measurement, satisfying the paired data requirement.
 Normality of Differences: The distribution of the differences should be approximately normal. This will be assessed via a histogram and Q-Q plot of the differences.
+
 Hypothesis and Expected Results:
 Null Hypothesis (H0): The mean difference in loneliness before and after COVID-19 is zero (no effect).
 Alternative Hypothesis (H1): The mean difference in loneliness before and after COVID-19 is greater than zero, indicating an increase in loneliness due to the pandemic.
+
 Discussion:
 If the analysis finds a significant increase in loneliness (positive mean difference), it would provide evidence that the pandemic had a negative impact on social well-being, supporting our research question. This could underline the importance of addressing loneliness through post-pandemic community and social health initiatives.
 
@@ -58,11 +61,11 @@ Is frequent volunteering associated with higher self-rated mental health among C
 
 Variables:
 Independent Variable: CONNECTION_activities_volunteering_p3m (frequency of volunteering in the past three months).
-
 Suggested Visualization: Bar chart or histogram to visualize the distribution of volunteering frequency, allowing us to see if volunteering is common or uncommon and how it varies across the population.
-Dependent Variable: WELLNESS_self_rated_mental_health (self-rated mental health on a scale from poor to excellent).
 
+Dependent Variable: WELLNESS_self_rated_mental_health (self-rated mental health on a scale from poor to excellent).
 Suggested Visualization: Boxplot of self-rated mental health for frequent versus infrequent volunteers, making it easy to compare mental health distributions across these groups.
+
 Bivariate Visualization: Scatter plot with a regression line between volunteering frequency and self-rated mental health, to visually assess the trend and possible association.
 
 Analysis:
@@ -71,6 +74,7 @@ Assumptions:
 Independence: Each respondent provides only one observation, so responses are assumed independent.
 Normality of Mental Health Scores: Mental health scores should be normally distributed within each group (frequent and infrequent volunteers), assessed through histograms or Q-Q plots.
 Equal Variance: The variance of mental health scores should be similar between groups. This will be assessed using Levene’s test.
+
 Hypothesis and Expected Results:
 Null Hypothesis (H0): There is no difference in self-rated mental health between frequent and infrequent volunteers.
 Alternative Hypothesis (H1): Frequent volunteers have higher self-rated mental health than infrequent volunteers.
